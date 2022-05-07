@@ -1,0 +1,94 @@
+<%- include("./partial/header.ejs") %>
+
+    <!-- CONTACT US start -->
+    <a name="CONTACT_US"></a>
+    <!-- head start -->
+    <div id="images" class="row">
+        <div class="col-md-12 col-12 " style="background-image: url('./img/upcoming-projects.png');background-repeat: no-repeat; background-size: cover; background-position: center center; z-index: 2; ">
+            <p>
+                <H5 style=" text-align:center; columns: #222222; color: white;">
+                    CONTACT US</H5>
+            </p>
+        </div>
+    </div>
+    <!-- head end -->
+
+    <!-- first location start -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-12 mx-auto" style="background-image: url('./img/dlf-2-screen.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center; z-index: 1; margin-top: -15px;">
+                <!--Grid row-->
+                <div class="row ">
+                    <!--Grid column-->
+                    <div class="col-md-6 col-12 mx-auto">
+
+                        <span style=" color: #ef4036; "><br><br>INTERESTED IN BUYING, SELLING OR RENTING<br>
+                                    RESIDENTIAL OR COMMERCIAL PROPERTY?<br>
+                                    CALL US OR SEND US A NOTE FOR MORE<br><br><br>
+                                </span>
+                        <span style="font: bolder; color: ivory;">
+                                    INFORMATION
+                                    <br> GANA ASSOCIATES<br> Shop No 4, Charkhi Gate, KaramPura, New Delhi - 110015
+                                    <br> (Opposite DLF Capital Greens Back Gate)<br> Email: info@ganaassociates.com
+                                    <br> Phone # +911145934545
+                                    <br><br><br> Moti Nagar Office<br> Shop No 4, Charkhi Gate, KaramPura, New Delhi -
+                                    110015
+                                    <br> (Opposite DLF Capital Greens Back Gate)
+                                    <br> Email: info@ganaassociates.com<br> Phone # +911145934545<br>
+                                    <br>
+                                </span>
+                    </div>
+                    <!--Grid column-->
+                    <!--Grid column-->
+                    <div class="col-md-6 col-12 mx-auto">
+                        <br><br>
+                        <form method="POST" action="/SendEmail">
+                            <div class="form-group" style=" background: transparent ">
+                                <!--Header-->
+                                <div class="text-center">
+                                    <h3 style=" color: #ef4036; ">
+                                        ASK YOUR QUERY:
+                                    </h3>
+                                </div>
+                                <!--Headerend -->
+                                <!--Body-->
+                                <div class="form-group">
+                                    <input type="text" id="uname" name="uname" class=" form-control transparent-input" placeholder="Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" id="uemail" name="uemail" class=" form-control transparent-input" placeholder="Email" required>
+
+                                </div>
+                                <div class="form-group">
+                                    <input type="Phone" id="uphno" name="uphno" class=" form-control transparent-input" placeholder="Phone" required>
+
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-control transparent-input solid" id="sel1" name="sel1" required>
+                                                <option>Select Builder</option>
+                                                <option>DLF Moti Nagar</option>
+                                                <option>Unitigroup Amarylli</option>
+                                                <option>Godrej South Estate</option>
+                                                <option>DLF Midtown</option>
+                                            </select>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" id="umsg" name="umsg" class=" form-control transparent-input" Text="NAME" placeholder="Message" required>
+
+                                </div>
+                                <div class="form-group ">
+                                    <button type="submit" class="btn btn-primary xx" style="background-color: #ef4036 ; margin-bottom: 10%;">SEND</button>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+        </div>
+    </div>
+    <!-- Full Page Inro-->
+    <!-- first location end -->
+    <%- include("./partial/footer.ejs") %>

@@ -1,0 +1,289 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.container-fluid {
+    margin: 0;
+}
+
+.container-aboutus {
+    position: relative;
+    text-align: justify;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-up {
+    bottom: 255px !important;
+}
+
+
+/* Top left text */
+
+.top-left {
+    font-size: 12px;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    color: white;
+    font: bold;
+}
+
+
+/* Top right text */
+
+.top-right {
+    font-size: 12px;
+    position: absolute;
+    top: 20px;
+    color: white;
+    font: bold;
+    right: 100px;
+}
+
+.text-all {
+    text-align: justify!important;
+    padding-left: 10px;
+    /* padding-right: 0px; */
+    /* margin-left: 57px; */
+    margin-top: 40px;
+    /* margin-bottom: 20px; */
+}
+
+#images {
+    text-align: center;
+    height: 86px;
+    margin-top: 80px;
+    ;
+}
+
+.sup1 {
+    top: -2.5em;
+    font-size: xx-small;
+}
+
+.sup2 {
+    top: -3.5em;
+    font-size: xx-small;
+}
+
+#form_container {
+    padding: 15px 15px;
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 1220px) {
+    .top-left {
+        left: 70px;
+        font-size: 10px;
+    }
+    .top-right {
+        right: 70px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    * {
+        font-size: 12px;
+    }
+    .sup1 {
+        top: -2.0em;
+        font: bold;
+    }
+    .sup2 {
+        top: -2.5em;
+        font: bold;
+    }
+    .top-left {
+        left: 10px;
+        font-size: 8px;
+    }
+    .top-right {
+        right: 10px;
+        font-size: 8px;
+    }
+    .btn-primary-new {
+        margin-bottom: 5%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    * {
+        font-size: 10px;
+    }
+    .sup1 {
+        top: -1.5em;
+        font-size: 8px;
+        font: bold;
+    }
+    .sup2 {
+        top: -2.0em;
+        font-size: 8px;
+        font: bold;
+    }
+    .top-left {
+        left: 10px;
+        font-size: 8px;
+    }
+    .top-right {
+        right: 10px;
+        font-size: 8px;
+    }
+}
+
+.addMore {
+    border: none;
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 170px;
+    width: 320px;
+    border-radius: 150px 150px 0 0;
+    background: rgb(255, 255, 255, 0.80);
+    z-index: -1;
+}
+
+.circle-text {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+    padding-top: 700px;
+}
+
+.btn-primary-new {
+    color: #fff;
+    border-color: black;
+    /*set the color you want here*/
+}
+
+.btn-primary-new:hover {
+    background-color: red !important;
+}
+
+.bg-darkk {
+    background-color: white!important;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: lightgreen;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #bbb;
+}
+
+.a-color {
+    color: #222222;
+}
+
+.a-color:hover {
+    color: #ef4036;
+}
+
+.a-color:hover~.active {
+    color: #222222;
+}
+
+.active {
+    color: #ef4036;
+}
+
+#cf {
+    position: relative;
+    height: 50px;
+    width: 450px;
+    margin: 0 auto;
+}
+
+#cf img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+    opacity: 0;
+}
+
+
+/* input,
+text {
+    background-color: #666;
+    color: brown;
+}
+
+input.transparent-input {
+    background-color: transparent !important;
+    border-color: brown;
+} */
+
+input.transparent-input {
+    background-color: transparent !important;
+    background: rgba(255, 255, 255, 0);
+    border-color: brown;
+    color: #ef4036 !important;
+    outline: none;
+}
+
+::placeholder {
+    color: #ef4036 !important;
+}
+
+ ::-webkit-input-placeholder {
+    color: #ef4036
+}
+
+ :-moz-placeholder {
+    color: #ef4036
+}
+
+ ::-moz-placeholder {
+    color: #ef4036
+}
+
+ :-ms-input-placeholder {
+    color: #ef4036
+}
+
+select {
+    background-color: transparent !important;
+    background: transparent !important;
+    border-color: brown !important;
+    color: #ef4036 !important;
+}
+
+.text-shadow {
+    /* background-color: #edde9c;
+  color: #bc2e1e; */
+    text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+}
+
+#left {
+    float: righ;
+    width: 104%;
+}
+
+#right {
+    float: right;
+}
