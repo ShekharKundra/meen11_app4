@@ -1,0 +1,5 @@
+1) create project 
+2) create home page,aboutus,contact us
+3) create in app
+4) create partical 
+5) send email on contact us
